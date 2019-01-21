@@ -6,7 +6,8 @@ def line(deli)
   else
     deli.each.with_index(1) do |name, i|
     katz_deli << "The line is currently: #{i}. #{name}" 
+    puts katz_deli
   end
 end
-puts katz_deli
+
 end
