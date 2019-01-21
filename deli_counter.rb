@@ -14,8 +14,7 @@ end
 
 def take_a_number(deli, name)
 deli.each.with_index(1) do |customer, i|
-  deli.push(name)
   puts "Welcome, #{customer}. You are number #{i} in line."
-  
+  deli.push(name)
 end
 end
