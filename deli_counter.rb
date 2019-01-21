@@ -13,7 +13,9 @@ end
 end
 
 def take_a_number(deli, name)
-  if deli.empty?
+  new_line = []
+  new_line << name
+  if new_line.empty?
   puts "Welcome, #{name}. You are number 1 in line."
 end
 end
