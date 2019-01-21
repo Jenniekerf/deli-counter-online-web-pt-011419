@@ -13,8 +13,6 @@ end
 end
 
 def take_a_number(deli, name)
-  new_line = deli << name
-new_line.each.with_index(1) do |customer, i|
-  puts "Welcome, #{customer}. You are number #{i} in line."
-  end
+  deli << name
+  puts "Welcome, #{customer}. You are number #{deli.size} in line."
 end
