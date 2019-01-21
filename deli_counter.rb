@@ -13,5 +13,5 @@ end
 end
 
 def take_a_number(deli, name)
-  
+  puts "Welcome #{name}"
 end
