@@ -13,10 +13,8 @@ end
 end
 
 def take_a_number(deli, name)
-deli << name
-  if deli.empty?
-  puts "Welcome, #{name}. You are number 1 in line."
-else 
-  puts 
+  deli << name
+deli.each.with_index(1) do |i, customer|
+  puts "Welcome, #{customer}. You are number #{i} in line."
 end
 end
