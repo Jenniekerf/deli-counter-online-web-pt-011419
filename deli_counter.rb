@@ -8,5 +8,5 @@ def line(deli)
     katz_deli << "The line is currently: #{i}. #{name}" 
   end
 end
-katz_deli
+puts katz_deli
 end
