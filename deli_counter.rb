@@ -13,8 +13,9 @@ end
 end
 
 def take_a_number(deli, name)
-deli << name
+
   if deli.empty?
+  deli << name
   puts "Welcome, #{name}. You are number 1 in line."
 end
 end
